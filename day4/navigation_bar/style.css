@@ -1,0 +1,28 @@
+nav{
+    background-color: #272d33;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div{
+    font-family: Helvetica;
+    background-color: #272d33;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+img{
+    width: 60px;
+}
+
+/* 只有鼠标指到的才会变 */
+.item:hover{
+    background-color: grey;
+    opacity: 0.5 ;
+}
+
+a{
+    width: 20%;
+    text-decoration: none;
+    text-align:center;
+}

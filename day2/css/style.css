@@ -1,0 +1,29 @@
+/* Site title */
+/* If there is id div, put # */
+/* # (id) */h1{
+    font-size: 3rem;
+    color:rgb(rgb(255, 0, 0), green, blue);
+    background-color:#3333;
+    text-align: center;
+    /* width: 50%; */
+    /* height: 150px; */
+    padding: 20px;
+    border: dashed green;
+    margin: 50px;
+    margin-left: 200px;
+}
+
+/* Gallery */
+/* "."is used to select class */
+.gallery-img{
+  width: 100px;
+}
+
+/* "# is used to select id */
+
+
+
+.bio p{
+    font-size: 10px;
+    color: blue !important;
+}

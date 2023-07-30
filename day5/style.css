@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#personal_information{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#connection{
+    border-radius: 25px;
+    border: solid white;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+#resume{
+    font-size: 50px
+}
+#background{
+    border-radius: 25px;
+    border: solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#skill{
+    border-radius: 25px;
+    border: solid white;
+}
+#selfile{
+    width: 500px;
+    height: 500px;
+}

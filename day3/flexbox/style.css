@@ -1,0 +1,57 @@
+/* Global */
+body {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ 
+ 
+ h1 {
+    text-align: center;
+ }
+ 
+ 
+ img {
+    width: 200px;
+    height: 100px;
+ } 
+
+ div{
+    border: 5px solid black;
+    margin: 50px;
+ }
+
+ #one{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+ }
+
+ #two{
+    display: flex;
+    background-color: greenyellow;
+    justify-content: flex-start;
+ }
+
+ #three{
+    display: flex;
+    background-color: rgb(32, 9, 132);
+    justify-content: flex-end;
+ }
+
+ #four{
+    display: flex;
+    background-color: rgb(23, 104, 104);
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+ }
+ #five{
+    display: flex;
+    background-color: rgb(144, 24, 60);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 500px;
+ }
+ /* h1 and p are display: block, while img are display: inline */
